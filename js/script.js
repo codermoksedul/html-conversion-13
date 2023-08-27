@@ -20,7 +20,7 @@ const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 // Show the button when the user scrolls down a certain distance
 window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    scrollToTopBtn.style.display = "block";
+    scrollToTopBtn.style.display = "flex";
   } else {
     scrollToTopBtn.style.display = "none";
   }
